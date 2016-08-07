@@ -2,6 +2,10 @@
 
 PatternAnalyst* PatternAnalyst::instance = nullptr;
 
+void PatternAnalyst::lock()
+{
+}
+
 PatternAnalyst * PatternAnalyst::getInstance()
 {
 	if (instance == nullptr)
@@ -9,6 +13,10 @@ PatternAnalyst * PatternAnalyst::getInstance()
 		instance = new PatternAnalyst();
 	}
 	return instance;
+}
+
+void PatternAnalyst::init()
+{
 }
 
 void PatternAnalyst::end()

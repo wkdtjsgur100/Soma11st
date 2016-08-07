@@ -17,6 +17,8 @@ class Product
 public:
 	Product(const ProductInfo& info);
 
+	virtual void init();
+
 	std::string getName() const
 	{ 
 		return info.name;  
@@ -31,4 +33,16 @@ public:
 	}
 
 	//기타 product의 기능들은 구축되있다 가정하고 생략.
+};
+
+class Camera : public Product
+{
+public:
+	void init() override;
+};
+
+class Computer : public Product
+{
+public:
+	void init() override;
 };

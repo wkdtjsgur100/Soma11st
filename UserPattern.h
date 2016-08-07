@@ -25,14 +25,20 @@ public:
 */
 class UserPattern
 {
-	std::vector<Category*> interestedCategory;
+	std::vector<Category*> interestedCategory; //사용자가 관심을 가지는 카테고리
+	std::vector<ProductInfo> interestedProductInfo;
+protected:
+	//유저 패턴 암호화
+	virtual std::string encryptionUserPattern();
 public:
+	//유저의 패턴을 데이터베이스에 저장할 수 있도록 정보를 convert 시킨다.
 	virtual UserPatternDataBaseInfo convertUserPatternToDatabaseInfo();
 };
 
 class PatternCase1 : public UserPattern
 {
 public:
+	std::string encryptionUserPattern() override; // 패턴 케이스에 따라서 override 될 수 있다.
 };
 
 class PatternCase2 : public UserPattern
