@@ -4,4 +4,4 @@
 
 - class diagram
 
-![Screenshot](classdiagram.png)
+![Screenshot](classdiagram.PNG)
