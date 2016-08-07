@@ -1,109 +1,158 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="UserPattern" Collapsed="true">
-    <Position X="1.75" Y="4.5" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Category">
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>UserPattern.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PatternCase1" Collapsed="true">
-    <Position X="0.5" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>UserPattern.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PatternCase2" Collapsed="true">
-    <Position X="2.75" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>UserPattern.h</FileName>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CElectricItem" Collapsed="true">
-    <Position X="4.25" Y="1.75" Width="1.5" />
+    <Position X="2.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CComputer" Collapsed="true">
-    <Position X="3" Y="3.25" Width="1.5" />
+    <Position X="2.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CDigitalCam" Collapsed="true">
-    <Position X="5.25" Y="3.25" Width="1.5" />
+    <Position X="5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CFurniture" Collapsed="true">
-    <Position X="0.75" Y="1.75" Width="1.5" />
+    <Position X="9.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CFood" Collapsed="true">
-    <Position X="7.5" Y="1.75" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CEtc" Collapsed="true">
-    <Position X="9.75" Y="1.75" Width="1.5" />
+    <Position X="8" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Category" Collapsed="true">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+  <Class Name="CategoryViewer">
+    <Position X="2.75" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>Categories.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CategoryViewer" Collapsed="true">
-    <Position X="12.25" Y="0.5" Width="1.5" />
+  <Class Name="ProductInfo">
+    <Position X="13.75" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Categories.h</FileName>
+      <HashCode>AAABAAAAAAAAQgAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Viewer" Collapsed="true">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+  <Class Name="Product">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAABAAAABAAAAAAAAAAQAAEAAAAAAA=</HashCode>
+      <FileName>Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserPatternDataBaseInfo">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>UserPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserPattern" Collapsed="true">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatternCase1" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatternCase2" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserPattern.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAQA=</HashCode>
       <FileName>Viewer.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TopDownMenuViewer" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
+  <Class Name="Viewer" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TopDownMenuViewer">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAIAAAAAAAQAAAAAAIgAEAAAAAAAA=</HashCode>
+      <FileName>Viewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListViewerAdapter">
+    <Position X="15.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Viewer.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ListViewer" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+    <Position X="5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQIACAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Viewer.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ImageViewer" Collapsed="true">
-    <Position X="5" Y="1.75" Width="1.5" />
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GraphicInstance">
+    <Position X="12" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Viewer.h</FileName>
     </TypeIdentifier>
-  </Class>
+  </Struct>
   <Font Name="맑은 고딕" Size="9" />
 </ClassDiagram>

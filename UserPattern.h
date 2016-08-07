@@ -5,7 +5,8 @@
 	abstract class.
 */
 #include<vector>
-#include"Categories.h"
+#include "Categories.h"
+#include "Product.h"
 
 /*
 	UserPatternData

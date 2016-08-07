@@ -74,7 +74,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -111,8 +115,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Categories.h" />
+    <ClInclude Include="Product.h" />
     <ClInclude Include="UserPattern.h" />
     <ClInclude Include="Viewer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="UserPattern.cpp" />
+    <ClCompile Include="Viewer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
